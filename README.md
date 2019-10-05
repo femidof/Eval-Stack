@@ -32,11 +32,17 @@ printf("Parenthesis imbalanced");
 }
 return 0;
 }
+
 In addition to the other functions for multiple stacks, you have to write and utilize the following functions in your solution:
 a) char* menu(): This function display a menu. e for entering an infix, x for exiting the program.
 -If the user chooses e, it takes an infix as input, copy it into a dynamically allocated string and return it to the main function. If the user chooses x, it will copy ‘exit’ to a dynamically allocated string and return it.
+
 b) int isBalancedParenthesis(char *): This function takes an infix expression and check the balance of the parenthesis. It returns 1, if it is balanced and 0 otherwise.
+
 c) int isOperator(char c): this function takes a char and returns 1 if the char is an operator. Otherwise, it returns 0;
+
 d) int getOperatorPriority(char c): this function takes an operator and returns its priority
+
 e) int convetToInt(char c): this function converts a char digit into int digit
+
 f) int calculate(int a, int b, char op): this function takes to operand and one operator and returns the result of the operation based on op; Example: calculate( 5, 6, ‘+’) will return 11
