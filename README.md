@@ -19,18 +19,31 @@ Requirements:
 2. The main function of the code should look like this. You can add maximum 10 more lines of codes in the main function as need for your logic, free any allocated memory, etc.:
 
 int main(void)
+
 {
+
 while(strcmp(str = menu(), "exit")!=0)
+
 {
+
 if (isBalancedParenthesis(str))
+
 {
+
 postFix = convertToPostfix(str);
+
 evaluate(postFix);
+
 }
+
 else
+
 printf("Parenthesis imbalanced");
+
 }
+
 return 0;
+
 }
 
 In addition to the other functions for multiple stacks, you have to write and utilize the following functions in your solution:
