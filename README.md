@@ -3,6 +3,7 @@
 
 
 Problem
+
 We as humans write math expression in infix notation, e.g. 5 + 2 (the operators are written in-between the operands). In computer’s language, however, it is preferred to have the operators on the right side of the operands, i.e. 5 2 +. For more complex expressions that include parenthesis and multiple operators, a compiler has to convert the expression into postfix first and then evaluate the resulting postfix.
 Write a program that takes an “infix” expression as input, uses stacks to convert it into postfix expression, and finally evaluates it.
 Input:
